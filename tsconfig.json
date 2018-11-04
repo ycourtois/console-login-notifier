@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2015",
+    "outDir": "build",
+    "declaration": false,
+    "noImplicitAny": false,
+    "inlineSourceMap": true,
+    "removeComments": true,
+    "strictNullChecks": true,
+    "typeRoots" : ["typings", "node_modules/@types"]
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    ".idea",
+    ".git",
+    "node_modules"
+  ]
+}

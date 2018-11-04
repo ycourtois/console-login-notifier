@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  console-login-notifier
+
+  Sample SAM Template for console-login-notifier
+
+Globals:
+  Function:
+    Timeout: 15
+
+Resources:
+  ConsoleLoginNotifier:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: app.lambdaHandler
+      CodeUri: build
+      Runtime: nodejs8.10
+      MemorySize: 256

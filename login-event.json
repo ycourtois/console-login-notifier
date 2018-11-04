@@ -1,0 +1,37 @@
+{
+  "version": "0",
+  "id": "12",
+  "detail-type": "AWS Console Sign In via CloudTrail",
+  "source": "aws.signin",
+  "account": "dgffdgfdg",
+  "time": "2018-11-02T18:41:57Z",
+  "region": "us-east-1",
+  "resources": [],
+  "detail": {
+    "eventVersion": "1.05",
+    "userIdentity": {
+      "type": "IAMUser",
+      "principalId": "dfgfdgfdgfdgfdgfdg",
+      "arn": "arn:aws:iam::dgffdgfdg:user/jean.quille",
+      "accountId": "dgffdgfdg",
+      "userName": "jean.quille"
+    },
+    "eventTime": "2018-11-02T18:41:57Z",
+    "eventSource": "signin.amazonaws.com",
+    "eventName": "ConsoleLogin",
+    "awsRegion": "global",
+    "sourceIPAddress": "42.42.42.42",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36",
+    "requestParameters": null,
+    "responseElements": {
+      "ConsoleLogin": "Success"
+    },
+    "additionalEventData": {
+      "LoginTo": "https://console.aws.amazon.com/iam/home?region=eu-west-1&state=hashArgs%23%2Fhome&isauthcode=true",
+      "MobileVersion": "No",
+      "MFAUsed": "Yes"
+    },
+    "eventID": "22",
+    "eventType": "AwsConsoleSignIn"
+  }
+}
